@@ -51,7 +51,7 @@ dotnet run
 ```bash
 cd frontend
 npm install
-ng serve
+npm start
 ```
 
 1. **Acesse a aplicação:**
