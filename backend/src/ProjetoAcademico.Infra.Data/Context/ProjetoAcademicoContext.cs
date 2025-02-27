@@ -9,6 +9,7 @@ namespace ProjetoAcademico.Infra.Data.Context
         DbContextOptions<ProjetoAcademicoContext> options) : DbContext(options)
     {
         public DbSet<Curso> CursoSet { get; set; }
+        public DbSet<Curso> ProfessorSet { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
